@@ -12,42 +12,23 @@ package Problema_5;
  */
 public class Problema_5 {
     
-    public static void main(String[] args) {
+   public static void main(String[] args) {
                  
-        int c=0;
+          int i;
+          int n=0;
+          for(i=0; i<=100; i++)
+        
+            
+            if((i%2)!=0){
+             System.out.printf("%d\n",n);
+              n=i;
+        }
+        
+              System.out.println("son"+i);
+      
+    }
+   
 
-                        int ni=0;
-
-                        int ci=0;
-
-                        while (c<100)
-
-                        {
-
-                                   c++;
-
-                                   if (c%2==1)
-
-                                   {
-
-                                               ci++;
-
-                                               ni=c;
-
-                                              
-
-                                               System.out.println("Impar:"+ni);
-
-                                              
-
-                                   }
-
-                        }
-
-                        System.out.println("Cantidad ipares son:"+ci);
-
-            }
-     
-    
-    
+                   
 }
+
